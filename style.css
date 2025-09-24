@@ -1,0 +1,149 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0 ,0, 0,0.7), rgba(0, 0, 0, 0.7))
+                            url("hero.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;            
+}
+.header{
+    text-align: center;
+    display: inline-flex;
+    height: 100px;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    margin-top: 10%;
+}
+
+.nav li{
+    display: inline-flex;
+    right: 30%;
+    gap: 30px;
+}
+
+.logo{
+    display: flex;
+    width: 10%;
+}
+ */
+
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), rgba(0, 0, 0, 0.7)
+            url('hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+            
+}
+
+.header1 {
+    display: flex;
+   justify-content: space-around;
+   align-items: stretch;
+   -webkit-text-fill-color: white;
+}
+
+.logo {
+    display: block;
+    height: 150px;
+    padding: 10px;
+    
+}
+
+.bar {
+    display: inline-flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bar li {
+    display: inline-flex;
+    justify-content: right;
+    font-size: large;
+    padding: 15px 25px;
+   
+}
+.bar li:hover{
+     text-decoration: underline orangered;
+}
+
+.bar a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.bar a:hover {
+    color: #007BFF;
+}
+
+.article{
+    display: inline-block;
+
+}
+
+
+.hero-textbox{
+    flex-wrap: wrap;
+    width: 1140px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    justify-content: flex-start;
+}
+
+.btn-full{
+    background-color: orange;
+    color: white; 
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.btn-full:hover, .btn-full:active{
+    background-color: rgb(120, 82, 10);     
+}
+
+
+
+
+.btn-ghost{
+    border: 1px solid;
+    color: rgb(243, 101, 49);
+    transition: color 0.25;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+.btn-ghost:hover, .btn-dull:active{
+    border: 1px solid rgb(236, 58, 14);
+    color: beige;
+    background-color: orange;
+    
+}
