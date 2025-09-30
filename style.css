@@ -151,22 +151,9 @@ header{
     
 }
 
-.con2{
-    display: inline-flex;
-    justify-content: center;
-    margin: 100px;
-}
-
-.iP {
-    display: block;
-    justify-content: ;
-    margin: 20px;
-    width: 20%
-
-}
-
 .body_1{
     text-align: center;
+    margin-top: 100px;
 }
 h2:after{
     display: block;
@@ -212,6 +199,8 @@ overflow: hidden;
     opacity: 1;
     transform: scale(1.00);
 }
+
+
 .container_2 img{
     width: 100%;
     height: auto;
@@ -221,4 +210,82 @@ overflow: hidden;
  
     
 
+}
+
+.con2{
+    display: inline-flex;
+    margin: 100px;
+    max-width: 1140px;
+    
+}
+
+
+.iP-container{
+    position: relative;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    left: 170px;
+    text-align: center;
+}
+.iP {
+    width: 100%;
+    max-width: 240px;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+.step{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.onetwothree {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+
+}
+
+
+
+.numOneTwoThree{
+    float: left;
+    display: inline;
+    color: orange;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 30px;
+    width: 60px;
+    height: 50px;
+}
+
+.pOneTwoThree{
+   font-size: 16px;
+   padding: 10px;
+   margin: 0;
+
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+
+
+.app-icons{
+    position: absolute;
+    bottom: 10px;
+    left: 100%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 10px;
+}
+ 
+.btn-app img{
+height: 40px;
+width: auto;
 }
