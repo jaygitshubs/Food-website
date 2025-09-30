@@ -153,6 +153,7 @@ header{
 
 .body_1{
     text-align: center;
+    padding-top: 20px;
 }
 h2:after{
     display: block;
@@ -211,6 +212,7 @@ overflow: hidden;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  max-width: 100%;
 }
 
 .container_3_item {
@@ -255,3 +257,65 @@ overflow: hidden;
   color: blue;            
 }
 
+
+.container_4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 100%;
+}
+.container_4_item {
+  flex: 1 1 200px;
+  max-width: 250px;
+  border: 1px solid rgb(180, 176, 176);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+ gap: 8px;
+  color: orangered;
+}
+.btn-full-1{
+    background-color: orange;
+    color: white; 
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.btn-full-1:hover, .btn-full-1:active{
+    background-color: rgb(120, 82, 10);     
+}
+
+
+
+
+.btn-ghost-1{
+    border: 1px solid;
+    color: rgb(243, 101, 49);
+    transition: color 0.25;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+.btn-ghost-1:hover, .btn-dul-1l:active{
+    border: 1px solid rgb(236, 58, 14);
+    color: beige;
+    background-color: orange;
+    
+}
+.payWall{
+    background-color: #d3cece;
+    color: black;
+    
+}
