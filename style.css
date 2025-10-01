@@ -416,3 +416,18 @@ background-color: #ac740d;
 color: aliceblue;
 }
 
+.footer{
+    background-color: rgb(118, 121, 118);
+    color: azure;
+    margin-top: 40px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-bottom{
+    display: flex;
+    justify-items: center;
+}
