@@ -1,41 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    background-image: linear-gradient(rgba(0 ,0, 0,0.7), rgba(0, 0, 0, 0.7))
-                            url("hero.jpg");
-    background-size: cover;
-    height: 100vh;
-    background-attachment: fixed;            
-}
-.header{
-    text-align: center;
-    display: inline-flex;
-    height: 100px;
-    padding: 20px;
-}
-
-.nav{
-    display: flex;
-    margin-top: 10%;
-}
-
-.nav li{
-    display: inline-flex;
-    right: 30%;
-    gap: 30px;
-}
-
-.logo{
-    display: flex;
-    width: 10%;
-}
- */
-
-
- *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -153,7 +116,10 @@ header{
 
 .body_1{
     text-align: center;
-    margin-top: 100px;
+
+  
+
+    padding-top: 20px;
 }
 h2:after{
     display: block;
@@ -214,6 +180,7 @@ overflow: hidden;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  max-width: 100%;
 }
 
 .container_3_item {
@@ -257,6 +224,7 @@ overflow: hidden;
   text-decoration: none; 
   color: blue;            
 }
+
 
 
 
@@ -405,9 +373,4 @@ html, body{
     max-width: 600px;
     margin: 0 auto;
     padding: 0 20px;    
-}
-
-
-
-
-
+} 
