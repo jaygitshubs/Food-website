@@ -369,8 +369,26 @@ html, body{
 }
 
 
+<<<<<<< HEAD
+.footer{
+    background-color: rgb(118, 121, 118);
+    color: azure;
+    margin-top: 40px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-bottom{
+    display: flex;
+    justify-items: center;
+}
+=======
 .FContent{
     max-width: 600px;
     margin: 0 auto;
     padding: 0 20px;    
 } 
+>>>>>>> d32fa243cf695e6be664559dbc9c78b8da6bfa77
