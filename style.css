@@ -306,116 +306,70 @@ height: 40px;
 width: auto;
 }
 
-.container_4 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  max-width: 100%;
-}
-.container_4_item {
-  flex: 1 1 200px;
-  max-width: 250px;
-  border: 1px solid rgb(180, 176, 176);
-}
-
-.price {
-  display: flex;
-  align-items: center;
- gap: 8px;
-  color: orangered;
-}
-.btn-full-1{
-    background-color: orange;
-    color: white; 
-    border-radius: 30px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-
-}
-
-.btn-full-1:hover, .btn-full-1:active{
-    background-color: rgb(120, 82, 10);     
-}
-
-
-
-
-.btn-ghost-1{
-    border: 1px solid;
-    color: rgb(243, 101, 49);
-    transition: color 0.25;
-    border-radius: 30px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-
-
-
-
-
-.btn-ghost-1:hover, .btn-dul-1l:active{
-    border: 1px solid rgb(236, 58, 14);
-    color: beige;
-    background-color: orange;
-    
-}
-.payWall{
-    background-color: #d3cece;
-    color: black;
-    
-}
-
-.container_5 {
-  border: 2px solid black;
-  width: 300px;
-  height: 500px;
-  display: flex;
-  margin-left: 400px; 
-flex-direction: column;
-padding: 10px;
-}
-.container_5_item{
+.con3{
     display: flex;
-   flex-direction: column;
+    height: 300px;    
+}
+
+.pizH{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.review-container{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    color: white;
+    overflow: hidden;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Reviews{
+padding: 40px;
+max-width: 100%;
+flex: 1 1 200px;
+
+}
+
+
+
+.imgs{  
+    border-radius: 70px;
+    width: 70px;
+    border: 1px solid purple;
+}
+
+.icon-texttwo{
+    margin: 40px;
+  gap: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background-color:  rgb(87, 84, 84);
+    border-top: 1px orange solid;
+    color: #555;
+    padding: 20px 0;
+    text-align: center;
     width: 100%;
-    margin: 5px;
-    padding: 5px;
+    margin-top: 50px;
 }
 
-input[type=text],
-input[type=email],
-select,
-textarea {
-  width: 100%;
-  padding: 7px;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-  margin-bottom: 15px;
-}
 
-textarea {
-  height: 100px;
-}
-
-input[type=checkbox] {
-  margin: 10px 5px 10px 0;
-}
-input[type=submit]{
-     border: 1px solid;
-    color: rgb(243, 101, 49);
-    transition: color 0.25;
-    border-radius: 30px;
-    margin: 10px;
-    padding: 10px;
-}
-input[type=submit]:hover{
-background-color: #ac740d;
-color: aliceblue;
-}
-
+<<<<<<< HEAD
 .footer{
     background-color: rgb(118, 121, 118);
     color: azure;
@@ -431,3 +385,10 @@ color: aliceblue;
     display: flex;
     justify-items: center;
 }
+=======
+.FContent{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;    
+} 
+>>>>>>> d32fa243cf695e6be664559dbc9c78b8da6bfa77
