@@ -1,41 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header{
-    background-image: linear-gradient(rgba(0 ,0, 0,0.7), rgba(0, 0, 0, 0.7))
-                            url("hero.jpg");
-    background-size: cover;
-    height: 100vh;
-    background-attachment: fixed;            
-}
-.header{
-    text-align: center;
-    display: inline-flex;
-    height: 100px;
-    padding: 20px;
-}
-
-.nav{
-    display: flex;
-    margin-top: 10%;
-}
-
-.nav li{
-    display: inline-flex;
-    right: 30%;
-    gap: 30px;
-}
-
-.logo{
-    display: flex;
-    width: 10%;
-}
- */
-
-
- *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -318,4 +281,52 @@ overflow: hidden;
     background-color: #d3cece;
     color: black;
     
+}
+
+.container_5 {
+  border: 2px solid black;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  margin-left: 400px; 
+flex-direction: column;
+padding: 10px;
+}
+.container_5_item{
+    display: flex;
+   flex-direction: column;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+input[type=submit]{
+     border: 1px solid;
+    color: rgb(243, 101, 49);
+    transition: color 0.25;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+input[type=submit]:hover{
+background-color: #ac740d;
+color: aliceblue;
 }
