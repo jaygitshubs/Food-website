@@ -337,3 +337,77 @@ overflow: hidden;
 height: 40px;
 width: auto;
 }
+
+.con3{
+    display: flex;
+    height: 300px;    
+}
+
+.pizH{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.review-container{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    color: white;
+    overflow: hidden;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Reviews{
+padding: 40px;
+max-width: 100%;
+flex: 1 1 200px;
+
+}
+
+
+
+.imgs{  
+    border-radius: 70px;
+    width: 70px;
+    border: 1px solid purple;
+}
+
+.icon-texttwo{
+    margin: 40px;
+  gap: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background-color:  rgb(87, 84, 84);
+    border-top: 1px orange solid;
+    color: #555;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.FContent{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;    
+}
+
+
+
+
+
