@@ -20,6 +20,7 @@ header{
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
+    position: relative;
             
 }
 
@@ -68,14 +69,14 @@ header{
 
 
 .hero-textbox{
-    flex-wrap: wrap;
+    position: absolute;
     width: 1140px;
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    justify-content: flex-start;
+    text-align: center;
 }
 
 .btn-full{
@@ -229,7 +230,9 @@ overflow: hidden;
 
 
 .con2{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 100px;
     max-width: 1140px;
     
@@ -238,7 +241,7 @@ overflow: hidden;
 
 .iP-container{
     position: relative;
-    width: 900px;
+     max-width: 900px;
     height: auto;
     margin: auto;
     left: 170px;
@@ -293,7 +296,7 @@ overflow: hidden;
 
 
 .app-icons{
-    position: absolute;
+    position: relative;
     bottom: 10px;
     left: 100%;
     transform: translate(-50%);
@@ -308,6 +311,7 @@ width: auto;
 
 .con3{
     display: flex;
+    flex-wrap: wrap;
     height: 300px;    
 }
 
@@ -322,11 +326,12 @@ width: auto;
 
 .review-container{
     display: flex;
-    max-width: 100%;
+  max-width: 100%;  
     flex-wrap: wrap;
     color: white;
     overflow: hidden;
-
+justify-content: space-around;
+align-items: flex-start;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -354,8 +359,8 @@ flex: 1 1 200px;
 html, body{
     height: 100%;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    overflow-x: hidden;
 }
 
 .footer{
@@ -369,7 +374,7 @@ html, body{
 }
 
 
-<<<<<<< HEAD
+
 .footer{
     background-color: rgb(118, 121, 118);
     color: azure;
@@ -385,10 +390,34 @@ html, body{
     display: flex;
     justify-items: center;
 }
-=======
-.FContent{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 20px;    
-} 
->>>>>>> d32fa243cf695e6be664559dbc9c78b8da6bfa77
+
+
+.container_4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 100%;
+ 
+}
+
+.container_4_item {
+  flex: 1 1 200px;
+  max-width: 250px;
+   border: 3px solid black;
+}
+.container_5 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+  max-width: 100%;
+ 
+}
+
+.container_5_item {
+ 
+  max-width: 250px;
+   border: 3px solid black;
+}
+
